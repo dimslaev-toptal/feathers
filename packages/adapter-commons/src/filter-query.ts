@@ -95,7 +95,7 @@ export const FILTERS = {
   $select: (value: any) => value
 };
 
-export const OPERATORS = ['$in', '$nin', '$lt', '$lte', '$gt', '$gte', '$ne', '$or'];
+export const OPERATORS = ['$in', '$all', '$nin', '$lt', '$lte', '$gt', '$gte', '$ne', '$or'];
 
 // Converts Feathers special query parameters and pagination settings
 // and returns them separately a `filters` and the rest of the query
